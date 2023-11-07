@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T15:56:50.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2bke0aPAbXNMwfl7Lkrc" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T12:19:04.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="spCC5Qt_6pVs7cOxZtOt" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Bn8mED3t46ikXf7q2-7s">
-    <mxGraphModel dx="1488" dy="812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,93 +121,93 @@
         <mxCell id="B5SgWa61qxDLQuOP4TUN-48" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="288" width="388" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-13" value="const struct&amp;nbsp; dev_pm_ops *pm;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B5SgWa61qxDLQuOP4TUN-35">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-13" value="const struct&amp;nbsp; dev_pm_ops *pm;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="318" width="388" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-14" value="const struct iommu_ops *iommu_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B5SgWa61qxDLQuOP4TUN-35">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-14" value="const struct iommu_ops *iommu_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="344" width="388" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-15" value="struct subsys_private *p;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B5SgWa61qxDLQuOP4TUN-35">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-15" value="struct subsys_private *p;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="370" width="388" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-16" value="struct lock_class_key lock_key;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B5SgWa61qxDLQuOP4TUN-35">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-16" value="struct lock_class_key lock_key;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="400" width="388" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-17" value="bool need_parent_lock;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B5SgWa61qxDLQuOP4TUN-35">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-17" value="bool need_parent_lock;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B5SgWa61qxDLQuOP4TUN-35" vertex="1">
           <mxGeometry y="430" width="388" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B5SgWa61qxDLQuOP4TUN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="B5SgWa61qxDLQuOP4TUN-18" target="B5SgWa61qxDLQuOP4TUN-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-1" value="struct driver_pricate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-1" value="struct driver_pricate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1116" y="900" width="337" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-3" value="struct kobject kobj;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-3" value="struct kobject kobj;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-1" vertex="1">
           <mxGeometry y="26" width="337" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-4" value="struct klist kilst_devices;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-4" value="struct klist kilst_devices;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-1" vertex="1">
           <mxGeometry y="52" width="337" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-5" value="struct klist_node knode_bus;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-5" value="struct klist_node knode_bus;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-1" vertex="1">
           <mxGeometry y="78" width="337" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-6" value="struct module_kobject *mkobj;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-6" value="struct module_kobject *mkobj;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-1" vertex="1">
           <mxGeometry y="104" width="337" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-7" value="struct device_driver *driver; //指向上一级device_driver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-7" value="struct device_driver *driver; //指向上一级device_driver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-1" vertex="1">
           <mxGeometry y="130" width="337" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5SgWa61qxDLQuOP4TUN-34" target="kXd3Oz3OFpL-D3K6ridA-1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="B5SgWa61qxDLQuOP4TUN-34" target="kXd3Oz3OFpL-D3K6ridA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-11" value="指向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kXd3Oz3OFpL-D3K6ridA-8">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-11" value="指向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kXd3Oz3OFpL-D3K6ridA-8" vertex="1" connectable="0">
           <mxGeometry x="0.344" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-18" value="struct subsys_private" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-18" value="struct subsys_private" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1792" y="507" width="371" height="346" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-19" value="struct kset subsys;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-19" value="struct kset subsys;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="26" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-20" value="&lt;font color=&quot;#4a36ff&quot;&gt;struct kset *devices_kset;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-20" value="&lt;font color=&quot;#4a36ff&quot;&gt;struct kset *devices_kset;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="52" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-21" value="struct list_head interfaces;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-21" value="struct list_head interfaces;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="78" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-22" value="struct mutex mutex;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-22" value="struct mutex mutex;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="104" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-23" value="&lt;font color=&quot;#4564ff&quot;&gt;struct kset *drivers_kset;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-23" value="&lt;font color=&quot;#4564ff&quot;&gt;struct kset *drivers_kset;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="130" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-24" value="struct klist&amp;nbsp; klist_devices;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-24" value="struct klist&amp;nbsp; klist_devices;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="156" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-25" value="struct klist&amp;nbsp; klist_drivers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-25" value="struct klist&amp;nbsp; klist_drivers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="182" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-26" value="struct blocking_notifier_head bus_notifier;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-26" value="struct blocking_notifier_head bus_notifier;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="208" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-27" value="unsigned int drivers_autoprobe:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-27" value="unsigned int drivers_autoprobe:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="234" width="371" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-28" value="struct bus_type *bus;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//pointer back to the struct bus_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-28" value="struct bus_type *bus;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;//pointer back to the struct bus_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="264" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-29" value="struct kset glue_dirs;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-29" value="struct kset glue_dirs;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="290" width="371" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-30" value="struct class *class;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-30" value="struct class *class;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kXd3Oz3OFpL-D3K6ridA-18" vertex="1">
           <mxGeometry y="320" width="371" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kXd3Oz3OFpL-D3K6ridA-15" target="kXd3Oz3OFpL-D3K6ridA-18">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kXd3Oz3OFpL-D3K6ridA-15" target="kXd3Oz3OFpL-D3K6ridA-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="kXd3Oz3OFpL-D3K6ridA-28">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=1 2;" parent="1" source="kXd3Oz3OFpL-D3K6ridA-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1785" y="801.18" as="sourcePoint" />
             <mxPoint x="1453" y="556" as="targetPoint" />
@@ -219,7 +219,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXd3Oz3OFpL-D3K6ridA-35" value="point back" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kXd3Oz3OFpL-D3K6ridA-34">
+        <mxCell id="kXd3Oz3OFpL-D3K6ridA-35" value="point back" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kXd3Oz3OFpL-D3K6ridA-34" vertex="1" connectable="0">
           <mxGeometry x="0.339" y="-23" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
