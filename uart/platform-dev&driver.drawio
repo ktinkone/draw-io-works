@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T09:05:06.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4T_-I-OjjxtkaWhq0yaY" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T12:20:38.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0AGpzRUL3VDnXt1i--I4" version="22.0.8" type="github">
   <diagram name="第 1 页" id="g33CBlJ5SNApXaNpEMKn">
-    <mxGraphModel dx="349" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="368" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="AA_tKpw4J6MFZE_gjbel-8" value="bool id_auto;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AA_tKpw4J6MFZE_gjbel-5">
           <mxGeometry y="90" width="259" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AA_tKpw4J6MFZE_gjbel-9" value="struct device dev;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AA_tKpw4J6MFZE_gjbel-5">
+        <mxCell id="AA_tKpw4J6MFZE_gjbel-9" value="&lt;font color=&quot;#ff146a&quot;&gt;struct device dev;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AA_tKpw4J6MFZE_gjbel-5">
           <mxGeometry y="120" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AA_tKpw4J6MFZE_gjbel-13" value="u64 platform_dma_mask;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AA_tKpw4J6MFZE_gjbel-5">
