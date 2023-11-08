@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T06:31:49.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g3A4wl8Yk1sO44Chcv2q" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T06:33:28.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="O9ddOoo-e-W2rdCdci2E" version="22.0.8" type="github">
   <diagram name="第 1 页" id="2r5dknUTrqkaAnIuduQz">
-    <mxGraphModel dx="840" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           <mxGeometry y="860" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dCYo8yhALJQxt7b84yej-38" value="struct uart_port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="654" y="221" width="307" height="180" as="geometry" />
+          <mxGeometry x="654" y="221" width="307" height="270" as="geometry" />
         </mxCell>
         <mxCell id="dCYo8yhALJQxt7b84yej-39" value="spinlock_t lock;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCYo8yhALJQxt7b84yej-38">
           <mxGeometry y="30" width="307" height="30" as="geometry" />
@@ -114,6 +114,15 @@
         </mxCell>
         <mxCell id="dCYo8yhALJQxt7b84yej-44" value="void (*serial_out) (struct uart_port *, int, int);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCYo8yhALJQxt7b84yej-38">
           <mxGeometry y="150" width="307" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dCYo8yhALJQxt7b84yej-45" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCYo8yhALJQxt7b84yej-38">
+          <mxGeometry y="180" width="307" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dCYo8yhALJQxt7b84yej-46" value="unsigned int irq;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCYo8yhALJQxt7b84yej-38">
+          <mxGeometry y="210" width="307" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dCYo8yhALJQxt7b84yej-47" value="unsigned long irqflags;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCYo8yhALJQxt7b84yej-38">
+          <mxGeometry y="240" width="307" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dCYo8yhALJQxt7b84yej-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCYo8yhALJQxt7b84yej-2" target="dCYo8yhALJQxt7b84yej-38">
           <mxGeometry relative="1" as="geometry" />
