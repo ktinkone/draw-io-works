@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T11:42:38.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="otn2w9ydJdr8-vEOSEnD" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T12:27:15.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kmVnUiHZg_Ph3gNi6sH3" version="22.1.4" type="github">
   <diagram name="第 1 页" id="0guYEPcLW2XiCTTwkZSu">
     <mxGraphModel dx="1275" dy="164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="2tdH_ecfaGRI0o93MVHh-5" value="串口驱动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="126" y="1283" width="307" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="2tdH_ecfaGRI0o93MVHh-8" value="MODBUS_RTU数据帧处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2tdH_ecfaGRI0o93MVHh-8" value="MODBUS_RTU数据帧处理模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="127" y="1184" width="306" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2tdH_ecfaGRI0o93MVHh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2tdH_ecfaGRI0o93MVHh-9" target="2tdH_ecfaGRI0o93MVHh-2">
@@ -106,7 +106,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2tdH_ecfaGRI0o93MVHh-9" value="以太网报文处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2tdH_ecfaGRI0o93MVHh-9" value="以太网模拟模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="127" y="1074" width="306" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2tdH_ecfaGRI0o93MVHh-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2tdH_ecfaGRI0o93MVHh-8" target="2tdH_ecfaGRI0o93MVHh-9">
