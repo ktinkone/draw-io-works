@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T14:05:06.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="pD7R6dcvVuhbly4Jll95" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T14:20:35.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ewAKRgnlPoa8m0--r1QJ" version="22.1.16" type="github">
   <diagram name="Page-1" id="0eKIxrGQDef5rG3l8_Fm">
     <mxGraphModel dx="1198" dy="1105" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,6 +199,30 @@
         </mxCell>
         <mxCell id="qBKd2bx_ocGhRHYz0LK9-74" value="插入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="147.5" y="2154" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-76" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Flow-First&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69.5" y="2559" width="131" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="2669" as="sourcePoint" />
+            <mxPoint x="129" y="2616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-79" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;路由决策&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="2674" width="131" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-82" value="如果pak 如接口是 新增接口，指定出接口仍然是该接口" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="2669.5" width="407" height="65.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-84" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="218" y="2639" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qBKd2bx_ocGhRHYz0LK9-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488" y="2663" as="sourcePoint" />
+            <mxPoint x="488" y="2608" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
