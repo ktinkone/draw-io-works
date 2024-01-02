@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T09:46:33.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="f872Cl1f7CtvBuXmsoyO" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T10:33:08.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="dnKzl6CqqMStGT31s3GP" version="22.1.16" type="github">
   <diagram name="Page-1" id="0eKIxrGQDef5rG3l8_Fm">
     <mxGraphModel dx="1822" dy="734" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
         <mxCell id="kiWrmqN45PkcOCn0Ly7W-47" value="设备读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="573.88" y="1345" width="66" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiWrmqN45PkcOCn0Ly7W-48" value="串行转发决策" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kiWrmqN45PkcOCn0Ly7W-48" value="转发管理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="153.88" y="1345" width="90" height="26" as="geometry" />
         </mxCell>
       </root>
